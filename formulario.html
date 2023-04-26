@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body style="text-align: center">
+    <h1>Formulário de Cadastro de Clientes</h1>
+    <form>
+      <p><strong>Nome Completo:</strong></p>
+      <input type="text" required size="20" placeholder="Digite seu Nome" />
+
+      <p><strong>CPF:</strong></p>
+      <input
+        required
+        type="text"
+        placeholder="Digite apenas números"
+        size="20"
+      />
+
+      <p><strong>E-mail:</strong></p>
+      <input type="email" placeholder="ex: email@yahoo.com" />
+
+      <p><strong>Endereço, Numero e CEP:</strong></p>
+      <input
+        style="margin-right: 5px"
+        type="text"
+        required
+        size="30"
+        placeholder="Digite seu endereço"
+      />
+      <br /><br />
+      <input type="text" placeholder="Número" size="5" required /> <br /><br />
+      <select required>
+        <option>Escolha um estado</option>
+        <option value="AC">AC</option>
+        <option value="AL">AL</option>
+        <option value="AP">AP</option>
+        <option value="AM">AM</option>
+        <option value="BA">BA</option>
+        <option value="CE">CE</option>
+        <option value="DF">DF</option>
+        <option value="ES">ES</option>
+        <option value="GO">GO</option>
+        <option value="MA">MA</option>
+        <option value="MT">MT</option>
+        <option value="MS">MS</option>
+        <option value="MG">MG</option>
+        <option value="PA">PA</option>
+        <option value="PB">PB</option>
+        <option value="PR">PR</option>
+        <option value="PE">PE</option>
+        <option value="PI">PI</option>
+        <option value="RJ">RJ</option>
+        <option value="RN">RN</option>
+        <option value="RS">RS</option>
+        <option value="RO">RO</option>
+        <option value="RR">RR</option>
+        <option value="SC">SC</option>
+        <option value="SP">SP</option>
+        <option value="SE">SE</option>
+        <option value="TO">TO</option>
+      </select>
+      <br /><br />
+      <input
+        type="text"
+        placeholder="Digite apenas números"
+        required
+        size="16"
+      />
+
+      <p>
+        <strong>Sexo:</strong>
+        <input type="radio" name="sex" value="masc" required/> Masculino
+        <input type="radio" name="sex" value="fem" required/> Feminino
+        <input type="radio" name="sex" value="None" required/> Prefiro não informar
+      </p>
+
+      <p>
+        <strong>Gosto musical:</strong>
+        <input type="checkbox" value="Trap" required>Trap
+        <input type="checkbox" value="Sertanejo" required>Sertanejo
+        <input type="checkbox" value="Samba" required>Samba
+        <input type="checkbox" value="Eletrônica" required>Eletrônica <br><br>
+        <input type="checkbox" value="Rock" required>Rock
+        <input type="checkbox" value="Reggae" required>Reggae
+        <input type="checkbox" value="Funk" required>Funk
+        <input type="checkbox" value="Axé" required>Axé
+        <input type="checkbox" value="Country" required>Country
+        <input type="checkbox" value="Forró" required>Forró
+      </p>
+      <button type="submit">Enviar</button>
+    </form>
+  </body>
+</html>
